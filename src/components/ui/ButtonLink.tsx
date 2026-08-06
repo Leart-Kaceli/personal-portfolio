@@ -1,10 +1,18 @@
 import Link from "next/link";
 
+import type {
+  ReactNode,
+} from "react";
+
 type ButtonLinkProps = {
   href: string;
-  children: React.ReactNode;
-  variant?: "primary" | "secondary" | "text";
+  children: ReactNode;
+  variant?:
+    | "primary"
+    | "secondary"
+    | "text";
   external?: boolean;
+  ariaLabel?: string;
 };
 
 export default function ButtonLink({
@@ -12,6 +20,7 @@ export default function ButtonLink({
   children,
   variant = "primary",
   external = false,
+  ariaLabel,
 }: ButtonLinkProps) {
   const baseClasses =
     "inline-flex min-h-11 items-center justify-center rounded-lg px-5 py-3 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-200";
@@ -34,6 +43,7 @@ export default function ButtonLink({
         href={href}
         target="_blank"
         rel="noreferrer"
+        aria-label={ariaLabel}
         className={className}
       >
         {children}
@@ -44,6 +54,7 @@ export default function ButtonLink({
   return (
     <Link
       href={href}
+      aria-label={ariaLabel}
       className={className}
     >
       {children}

@@ -2,10 +2,13 @@ export type PortfolioProject = {
   slug: string;
   title: string;
   description: string;
+  longDescription: string;
   technologies: string[];
   image: string;
   liveUrl: string;
   repositoryUrl: string;
+  caseStudyUrl: string;
+  status: string;
 };
 
 export const projects:
@@ -18,7 +21,10 @@ export const projects:
         "AP Path Planner",
 
       description:
-        "A full-stack academic planning platform that helps AP students manage courses, assignments, study sessions, grades, goals, calendars, and reminders.",
+        "A full-stack academic planning platform for AP students.",
+
+      longDescription:
+        "AP Path Planner helps students manage courses, assignments, study sessions, grades, goals, calendars, and reminders in one application. The project includes authentication, private cloud data, automated testing, accessibility checks, and production deployment.",
 
       technologies: [
         "Next.js",
@@ -27,6 +33,7 @@ export const projects:
         "Firebase",
         "Playwright",
         "Tailwind CSS",
+        "GitHub Actions",
         "Vercel",
       ],
 
@@ -37,6 +44,12 @@ export const projects:
         "",
 
       repositoryUrl:
-        "",
+        "https://github.com/Leart-Kaceli/AP-Path-Planner",
+
+      caseStudyUrl:
+        "/projects/ap-path-planner",
+
+      status:
+        "Deployed full-stack application",
     },
   ];

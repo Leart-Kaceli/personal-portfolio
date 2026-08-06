@@ -1,4 +1,5 @@
 import AboutPreview from "@/components/home/AboutPreview";
+import ContactCallToAction from "@/components/home/ContactCallToAction";
 import FeaturedProject from "@/components/home/FeaturedProject";
 import Hero from "@/components/home/Hero";
 import Skills from "@/components/home/Skills";
@@ -13,6 +14,8 @@ export default function HomePage() {
       <Skills />
 
       <AboutPreview />
+
+      <ContactCallToAction />
     </main>
   );
 }
