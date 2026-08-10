@@ -1,14 +1,16 @@
 export type PortfolioProject = {
   slug: string;
   title: string;
+  shortDescription: string;
   description: string;
-  longDescription: string;
   technologies: string[];
   image: string;
+  imageAlt: string;
   liveUrl: string;
   repositoryUrl: string;
   caseStudyUrl: string;
   status: string;
+  featured: boolean;
 };
 
 export const projects:
@@ -20,17 +22,19 @@ export const projects:
       title:
         "AP Path Planner",
 
-      description:
+      shortDescription:
         "A full-stack academic planning platform for AP students.",
 
-      longDescription:
-        "AP Path Planner helps students manage courses, assignments, study sessions, grades, goals, calendars, and reminders in one application. The project includes authentication, private cloud data, automated testing, accessibility checks, and production deployment.",
+      description:
+        "AP Path Planner helps students manage courses, assignments, study sessions, grades, goals, calendars, and reminders in one application. The project includes authentication, private cloud data, Firestore Security Rules, automated testing, accessibility checks, and production deployment.",
 
       technologies: [
         "Next.js",
         "TypeScript",
         "React",
-        "Firebase",
+        "Firebase Authentication",
+        "Cloud Firestore",
+        "Firestore Security Rules",
         "Playwright",
         "Tailwind CSS",
         "GitHub Actions",
@@ -40,8 +44,11 @@ export const projects:
       image:
         "/projects/ap-path-planner/dashboard.webp",
 
+      imageAlt:
+        "AP Path Planner dashboard with upcoming assignments, course progress, study information, and academic summary cards.",
+
       liveUrl:
-        "",
+        "https://ap-path-planner.vercel.app",
 
       repositoryUrl:
         "https://github.com/Leart-Kaceli/AP-Path-Planner",
@@ -51,5 +58,8 @@ export const projects:
 
       status:
         "Deployed full-stack application",
+
+      featured:
+        true,
     },
   ];

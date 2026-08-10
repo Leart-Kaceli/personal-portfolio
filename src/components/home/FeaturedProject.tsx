@@ -23,14 +23,14 @@ export default function FeaturedProject() {
 
         <div className="mt-12 grid gap-10 rounded-3xl border border-slate-200 bg-slate-50 p-6 shadow-sm sm:p-8 lg:grid-cols-[0.95fr_1.05fr] lg:p-10">
           <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-  <Image
-    src={project.image}
-    alt="AP Path Planner dashboard with upcoming assignments, course progress, study information, and summary cards."
-    width={1440}
-    height={900}
-    className="h-full w-full object-cover"
-    priority
-  />
+ <Image
+  src={project.image}
+  alt={project.imageAlt}
+  width={1440}
+  height={900}
+  className="h-auto w-full"
+  priority
+/>
 </div>
 
           <div className="flex flex-col justify-center">
@@ -43,7 +43,7 @@ export default function FeaturedProject() {
             </h3>
 
             <p className="mt-5 text-base leading-8 text-slate-600">
-              {project.longDescription}
+              {project.description}
             </p>
 
             <div className="mt-6 flex flex-wrap gap-2">
