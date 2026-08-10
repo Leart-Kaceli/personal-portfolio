@@ -30,6 +30,7 @@ const geistMono = Geist_Mono({
 
 export const metadata:
   Metadata = {
+
   title: {
     default:
       "Leart Kaceli | Software Developer",
@@ -65,6 +66,31 @@ export const metadata:
 
   creator:
     "Leart Kaceli",
+
+  openGraph: {
+    type:
+      "website",
+
+    title:
+      "Leart Kaceli | Software Developer",
+
+    description:
+      "Portfolio featuring AP Path Planner and my work in full-stack software development.",
+
+    siteName:
+      "Leart Kaceli Portfolio",
+  },
+
+  twitter: {
+    card:
+      "summary_large_image",
+
+    title:
+      "Leart Kaceli | Software Developer",
+
+    description:
+      "Portfolio featuring AP Path Planner and my work in full-stack software development.",
+  },
 };
 
 export default function RootLayout({
