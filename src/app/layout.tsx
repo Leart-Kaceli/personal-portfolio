@@ -3,6 +3,10 @@ import type {
 } from "next";
 
 import {
+  Analytics,
+} from "@vercel/analytics/next";
+
+import {
   Geist,
   Geist_Mono,
 } from "next/font/google";
@@ -11,6 +15,11 @@ import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 
 import "./globals.css";
+
+const siteUrl =
+  process.env
+    .NEXT_PUBLIC_SITE_URL ??
+  "http://localhost:3000";
 
 const geistSans = Geist({
   variable:
@@ -30,6 +39,10 @@ const geistMono = Geist_Mono({
 
 export const metadata:
   Metadata = {
+  metadataBase:
+    new URL(
+      siteUrl,
+    ),
 
   title: {
     default:
@@ -40,7 +53,7 @@ export const metadata:
   },
 
   description:
-    "Portfolio of a high school software developer building full-stack applications with Next.js, TypeScript, React, Firebase, and Playwright.",
+    "Portfolio of a student software developer building full-stack applications with Next.js, TypeScript, React, Firebase, and Playwright.",
 
   applicationName:
     "Leart Kaceli Portfolio",
@@ -48,7 +61,7 @@ export const metadata:
   keywords: [
     "Leart Kaceli",
     "software developer",
-    "high school developer",
+    "student developer",
     "Next.js",
     "TypeScript",
     "React",
@@ -70,6 +83,9 @@ export const metadata:
   openGraph: {
     type:
       "website",
+
+    url:
+      "/",
 
     title:
       "Leart Kaceli | Software Developer",
@@ -121,6 +137,7 @@ export default function RootLayout({
 </div>
 
           <Footer />
+           <Analytics />
         </div>
       </body>
     </html>
