@@ -216,3 +216,30 @@ A distinct suggestion, usability problem, bug report, or feature request receive
 ### Feedback-Based Improvement
 
 A product/code change that can be directly connected to user feedback.
+
+
+## Portfolio Analytics
+
+Production portfolio URL:
+
+[YOUR URL]
+
+Vercel Web Analytics enabled:
+Yes
+
+Launch date:
+August 2026
+
+### Metrics
+
+Unique visitors:
+[VERIFY LATER]
+
+Page views:
+[VERIFY LATER]
+
+Top referrers:
+[VERIFY LATER]
+
+AP Path Planner case study views:
+[VERIFY LATER]

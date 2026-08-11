@@ -969,3 +969,77 @@ The portfolio is complete when:
 - [x] Private evidence folder created
 - [x] Private evidence ignored by Git if needed
 - [x] No user personal information included
+
+# Day 14 Completion Checklist
+
+## Deployment
+
+- [x] Portfolio imported into Vercel
+- [x] Next.js detected correctly
+- [x] Initial deployment succeeds
+- [x] Production environment confirmed
+- [x] Permanent Production URL recorded
+- [x] Site works in incognito
+
+## Environment
+
+- [x] NEXT_PUBLIC_SITE_URL added locally
+- [x] NEXT_PUBLIC_SITE_URL added to Vercel Production
+- [x] .env.local ignored by Git
+- [x] No AP Path Planner Firebase variables copied unnecessarily
+
+## Metadata
+
+- [x] metadataBase uses production domain
+- [x] Open Graph metadata works
+- [x] Twitter metadata works
+- [x] Open Graph image works
+- [x] Homepage title correct
+- [x] About title correct
+- [x] Projects title correct
+- [x] AP Path Planner title correct
+- [x] Contact title correct
+
+## SEO
+
+- [x] robots.ts created
+- [x] /robots.txt works
+- [x] sitemap.ts created
+- [x] /sitemap.xml works
+- [x] Sitemap uses production domain
+- [x] No localhost production URLs
+
+## Analytics
+
+- [x] @vercel/analytics installed
+- [x] Analytics component added
+- [x] Vercel Web Analytics enabled
+- [x] Portfolio analytics log created
+
+## Production Testing
+
+- [x] Homepage checked
+- [x] About checked
+- [x] Projects checked
+- [x] AP Path Planner case study checked
+- [x] Contact checked
+- [x] Desktop checked
+- [x] Mobile checked
+- [x] Incognito checked
+- [x] External links checked
+- [x] Email link checked
+
+## GitHub
+
+- [x] Portfolio repo Website field updated
+- [x] Portfolio repository description updated
+- [x] AP Path Planner README links to portfolio case study
+- [x] AP Path Planner README change committed
+- [x] GitHub repositories cross-reference correctly
+
+## College Evidence
+
+- [x] Portfolio URL added to master copy
+- [x] Case-study URL added
+- [x] Evidence checklist updated
+- [x] Analytics tracking prepared

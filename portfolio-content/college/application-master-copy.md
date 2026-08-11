@@ -158,7 +158,11 @@ https://github.com/Leart-Kaceli/AP-Path-Planner
 
 ### Portfolio Case Study
 
-[YOUR PORTFOLIO CASE STUDY URL — ADD AFTER DEPLOYMENT]
+https://personal-portfolio-eight-ecru-40.vercel.app/projects/ap-path-planner
+
+### Personal Portfolio
+
+https://personal-portfolio-eight-ecru-40.vercel.app
 
 ### Product Hunt
 
