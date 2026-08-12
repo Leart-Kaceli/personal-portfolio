@@ -222,13 +222,13 @@ A product/code change that can be directly connected to user feedback.
 
 Production portfolio URL:
 
-[YOUR URL]
+https://personal-portfolio-eight-ecru-40.vercel.app
 
 Vercel Web Analytics enabled:
 Yes
 
 Launch date:
-August 2026
+8/12/2026
 
 ### Metrics
 
