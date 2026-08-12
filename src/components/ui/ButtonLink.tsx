@@ -27,11 +27,13 @@ export default function ButtonLink({
 
   const variantClasses = {
     primary:
-      "bg-blue-600 text-white shadow-sm hover:bg-blue-700",
+      "bg-blue-600 !text-white shadow-sm hover:bg-blue-700 hover:!text-white",
+
     secondary:
-      "border border-slate-300 bg-white text-slate-800 hover:border-slate-400 hover:bg-slate-50",
+      "border border-slate-300 bg-white !text-slate-950 shadow-sm hover:border-slate-400 hover:bg-slate-100 hover:!text-slate-950",
+
     text:
-      "px-0 text-blue-700 hover:text-blue-800 hover:underline",
+      "px-0 !text-blue-700 hover:!text-blue-800 hover:underline",
   };
 
   const className =
