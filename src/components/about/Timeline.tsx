@@ -26,10 +26,10 @@ const timelineItems = [
       "2026",
 
     title:
-      "Added authentication and cloud data",
+      "Expanded testing and deployment",
 
     description:
-      "Implemented Firebase Authentication, Cloud Firestore, per-user data, and Firestore Security Rules.",
+      "Added authentication, private cloud data, Firestore Security Rules, automated browser testing, accessibility checks, continuous integration, and production deployment.",
   },
 
   {
@@ -37,10 +37,10 @@ const timelineItems = [
       "2026",
 
     title:
-      "Expanded testing and reliability",
+      "Launched and began iterating",
 
     description:
-      "Added unit tests, Firestore Rules tests, browser testing, accessibility checks, emulator testing, and deployed smoke tests.",
+      "Shared AP Path Planner publicly, reached early users, collected feedback, and shipped course color-coding as a user-inspired improvement.",
   },
 
   {
@@ -48,10 +48,10 @@ const timelineItems = [
       "2026",
 
     title:
-      "Production deployment",
+      "Started building with hardware",
 
     description:
-      "Deployed the application through Vercel and worked through production configuration, monitoring, and deployment verification.",
+      "Completed an Arduino UNO R4 WiFi Smart Room Environmental Controller using sensors, a display, a DC motor, and embedded C++.",
   },
 
   {
@@ -59,10 +59,10 @@ const timelineItems = [
       "Next",
 
     title:
-      "Continue building",
+      "Continue building across software and hardware",
 
     description:
-      "Improve AP Path Planner based on real user feedback while developing additional software projects.",
+      "Keep improving AP Path Planner while exploring embedded systems, electronics, and projects that connect software with the physical world.",
   },
 ];
 

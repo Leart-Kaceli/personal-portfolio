@@ -87,8 +87,7 @@ export default function ApPathPlannerPage() {
               </ButtonLink>
             </div>
 
-            <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              <div className="mt-8 flex flex-wrap gap-2">
+            <div className="mt-8 flex flex-wrap gap-2">
   {project.technologies.map(
     (
       technology,
@@ -104,26 +103,28 @@ export default function ApPathPlannerPage() {
     ),
   )}
 </div>
-              <ProjectMetric
-                label="Project type"
-                value="Full-stack web app"
-              />
 
-              <ProjectMetric
-                label="Audience"
-                value="AP students"
-              />
+<div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+  <ProjectMetric
+    label="Project type"
+    value="Full-stack web app"
+  />
 
-              <ProjectMetric
-                label="Primary stack"
-                value="Next.js + Firebase"
-              />
+  <ProjectMetric
+    label="Audience"
+    value="AP students"
+  />
 
-              <ProjectMetric
-                label="Status"
-                value="Deployed"
-              />
-            </div>
+  <ProjectMetric
+    label="Primary stack"
+    value="Next.js + Firebase"
+  />
+
+  <ProjectMetric
+    label="Status"
+    value="Launched & iterating"
+  />
+</div>
           </div>
         </Container>
       </section>
@@ -190,6 +191,97 @@ export default function ApPathPlannerPage() {
         </Container>
       </section>
 
+      <section className="border-y border-slate-200 bg-white py-16 sm:py-24">
+  <Container>
+    <CaseStudySection
+      eyebrow="After launch"
+      title="Launch, feedback, and iteration"
+    >
+      <p>
+        After completing the initial production version, I began sharing AP Path Planner publicly and asking students for feedback instead of treating the first release as finished.
+      </p>
+
+      <p>
+        During the early launch period, the application reached 110 visitors and 5 registered users, while a Reddit post introducing the project received more than 1,000 views.
+      </p>
+
+      <p>
+        More important than the numbers themselves was beginning a real product-feedback loop: release the application, observe how people respond, collect suggestions, decide which changes are worthwhile, and ship another version.
+      </p>
+
+      <div className="mt-8">
+        <p className="text-xs font-bold uppercase tracking-[0.16em] text-slate-500">
+          Early launch metrics · September 2026
+        </p>
+
+        <div className="mt-4 grid gap-4 sm:grid-cols-3">
+          <ProjectMetric
+            label="Visitors"
+            value="110"
+          />
+
+          <ProjectMetric
+            label="Registered users"
+            value="5"
+          />
+
+          <ProjectMetric
+            label="Reddit views"
+            value="1,000+"
+          />
+        </div>
+      </div>
+    </CaseStudySection>
+  </Container>
+</section>
+
+<section className="py-16 sm:py-24">
+  <Container>
+    <CaseStudySection
+      eyebrow="Feedback-driven development"
+      title="From user suggestion to shipped feature"
+    >
+      <p>
+        One user suggested color-coding assignments by course so that students could distinguish classes more quickly while scanning their workload.
+      </p>
+
+      <p>
+        I implemented automatic course-based colors across the Assignments page, Dashboard, and Calendar. Instead of storing a new color field on every assignment, the application derives a stable color from the course name, which kept existing assignment data compatible.
+      </p>
+
+      <p>
+        Course names remain visible alongside the colors so that color is an additional visual signal rather than the only way to identify a class.
+      </p>
+
+      <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <ProcessCard
+          number="01"
+          title="Feedback"
+          description="A user suggested making assignments easier to distinguish by course."
+        />
+
+        <ProcessCard
+          number="02"
+          title="Design"
+          description="I chose automatic course colors instead of requiring manual color selection."
+        />
+
+        <ProcessCard
+          number="03"
+          title="Implementation"
+          description="The colors were applied consistently across assignments, dashboard cards, and calendar events."
+        />
+
+        <ProcessCard
+          number="04"
+          title="Release"
+          description="The feature was tested, committed through GitHub, and shipped to production."
+        />
+      </div>
+    </CaseStudySection>
+  </Container>
+</section>
+
       <section className="py-16 sm:py-24">
         <Container>
           <div className="max-w-3xl">
@@ -218,9 +310,9 @@ export default function ApPathPlannerPage() {
             />
 
             <FeatureCard
-              title="Assignment tracking"
-              description="Create assignments with course associations, due dates, priorities, completion status, editing, and deletion."
-            />
+  title="Assignment tracking"
+  description="Create assignments with course associations, due dates, priorities, completion status, editing, deletion, and automatic course color-coding."
+/>
 
             <FeatureCard
               title="Study Planner"
@@ -687,5 +779,33 @@ function ChallengeBlock({
         {description}
       </p>
     </div>
+  );
+}
+
+type ProcessCardProps = {
+  number: string;
+  title: string;
+  description: string;
+};
+
+function ProcessCard({
+  number,
+  title,
+  description,
+}: ProcessCardProps) {
+  return (
+    <article className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+      <p className="text-sm font-bold text-blue-600">
+        {number}
+      </p>
+
+      <h3 className="mt-3 text-lg font-bold text-slate-950">
+        {title}
+      </h3>
+
+      <p className="mt-2 text-sm leading-7 text-slate-600">
+        {description}
+      </p>
+    </article>
   );
 }

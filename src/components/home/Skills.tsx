@@ -11,10 +11,10 @@ export default function Skills() {
     <section className="py-20 sm:py-24">
       <Container>
         <SectionHeading
-          eyebrow="Technical skills"
-          title="Tools I use to build, test, and deploy software."
-          description="My strongest experience comes from using these technologies in AP Path Planner and other programming projects."
-        />
+  eyebrow="Technical skills"
+  title="Tools I use across software and embedded systems."
+  description="My strongest experience comes from applying these technologies in complete projects, including AP Path Planner and my Arduino Smart Room Environmental Controller."
+/>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           {skillCategories.map(

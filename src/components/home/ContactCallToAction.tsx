@@ -12,11 +12,11 @@ export default function ContactCallToAction() {
             </p>
 
             <h2 className="mt-3 max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">
-              Interested in my work or AP Path Planner?
+              Interested in my projects?
             </h2>
 
             <p className="mt-4 max-w-2xl text-base leading-7 text-slate-300">
-              Explore the project case study, view my source code, or contact me about software development and learning opportunities.
+              Explore my software and embedded systems work, view the source code on GitHub, or contact me about projects and learning opportunities.
             </p>
           </div>
 

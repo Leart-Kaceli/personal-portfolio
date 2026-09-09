@@ -50,7 +50,7 @@ export default function OpenGraphImage() {
               "0.12em",
           }}
         >
-          Software Developer
+          Software · Embedded Systems · Projects
         </div>
 
         <div
@@ -84,7 +84,7 @@ export default function OpenGraphImage() {
               "#cbd5e1",
           }}
         >
-          Building practical full-stack software with Next.js, TypeScript, React, Firebase, and Playwright.
+          Building full-stack software and embedded systems that connect code with real-world problems.
         </div>
 
         <div
@@ -95,13 +95,13 @@ export default function OpenGraphImage() {
               "flex",
             gap:
               18,
-          }}
+        }}
         >
           {[
             "AP Path Planner",
+            "Arduino",
             "Next.js",
-            "Firebase",
-            "Playwright",
+            "Embedded C++",
           ].map(
             (
               item,

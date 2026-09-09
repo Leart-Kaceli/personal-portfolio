@@ -46,14 +46,14 @@ export const metadata:
 
   title: {
     default:
-      "Leart Kaceli | Software Developer",
+  "Leart Kaceli | Student Developer",
 
     template:
       "%s | Leart Kaceli",
   },
 
   description:
-    "Portfolio of a student software developer building full-stack applications with Next.js, TypeScript, React, Firebase, and Playwright.",
+  "Student developer portfolio featuring full-stack software and embedded systems projects, including AP Path Planner and an Arduino Smart Room Environmental Controller.",
 
   applicationName:
     "Leart Kaceli Portfolio",
@@ -68,6 +68,10 @@ export const metadata:
     "Firebase",
     "Playwright",
     "AP Path Planner",
+    "Arduino",
+"embedded systems",
+"electrical engineering",
+"Arduino UNO R4 WiFi",
   ],
 
   authors: [
@@ -88,10 +92,10 @@ export const metadata:
       "/",
 
     title:
-      "Leart Kaceli | Software Developer",
+  "Leart Kaceli | Student Developer",
 
     description:
-      "Portfolio featuring AP Path Planner and my work in full-stack software development.",
+  "Portfolio featuring full-stack software and embedded systems projects, including AP Path Planner and an Arduino Smart Room Environmental Controller.",
 
     siteName:
       "Leart Kaceli Portfolio",
@@ -102,10 +106,10 @@ export const metadata:
       "summary_large_image",
 
     title:
-      "Leart Kaceli | Software Developer",
+  "Leart Kaceli | Student Developer",
 
     description:
-      "Portfolio featuring AP Path Planner and my work in full-stack software development.",
+  "Portfolio featuring full-stack software and embedded systems projects, including AP Path Planner and an Arduino Smart Room Environmental Controller.",
   },
 };
 
