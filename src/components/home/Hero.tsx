@@ -13,15 +13,15 @@ export default function Hero() {
         <div className="grid items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]">
           <div>
             <p className="inline-flex rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-bold text-blue-700">
-              High School Software Developer
+              Student Developer · Software + Embedded Systems
             </p>
 
             <h1 className="mt-6 max-w-4xl text-4xl font-bold tracking-tight text-slate-950 sm:text-6xl lg:text-7xl">
-              I build software that solves real problems.
+              I build systems that connect ideas, code, and real-world problems.
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl">
-              I am a high school student interested in computer science and software engineering. I build full-stack applications that solve practical problems, especially tools related to education and student productivity.
+              I am a high school student interested in software, computing, electronics, and the systems that connect them. My projects range from full-stack web applications to Arduino-based hardware and embedded systems.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -42,7 +42,7 @@ export default function Hero() {
             <dl className="mt-10 grid max-w-2xl gap-5 border-t border-slate-200 pt-8 sm:grid-cols-3">
               <div>
                 <dt className="text-sm font-medium text-slate-500">
-                  Main project
+                  Main software project
                 </dt>
 
                 <dd className="mt-1 font-bold text-slate-950">
@@ -52,11 +52,11 @@ export default function Hero() {
 
               <div>
                 <dt className="text-sm font-medium text-slate-500">
-                  Primary stack
+                  Hardware project
                 </dt>
 
                 <dd className="mt-1 font-bold text-slate-950">
-                  Next.js + Firebase
+                  Smart Room Controller
                 </dd>
               </div>
 
@@ -66,7 +66,7 @@ export default function Hero() {
                 </dt>
 
                 <dd className="mt-1 font-bold text-slate-950">
-                  Full-stack development
+                  Software + embedded systems
                 </dd>
               </div>
             </dl>
@@ -80,52 +80,52 @@ export default function Hero() {
                 <span className="h-3 w-3 rounded-full bg-emerald-400" />
 
                 <span className="ml-3 text-xs font-medium text-slate-500">
-                  current-project.ts
+                  current-projects.ts
                 </span>
               </div>
 
               <div className="space-y-5 pt-6">
                 <div>
                   <p className="text-xs font-bold uppercase tracking-[0.18em] text-blue-600">
-                    Featured build
+                    Current builds
                   </p>
 
                   <h2 className="mt-2 text-2xl font-bold text-slate-950">
-                    AP Path Planner
+                    Software + Hardware
                   </h2>
                 </div>
 
                 <p className="text-sm leading-7 text-slate-600">
-                  A full-stack academic planning platform that helps students manage courses, assignments, study sessions, grades, calendars, goals, and reminders.
+                  I am continuing to improve AP Path Planner from real user feedback while expanding into embedded systems through an Arduino Smart Room Environmental Controller.
                 </p>
 
                 <div className="grid grid-cols-2 gap-3">
                   <HeroStat
-                    label="Frontend"
+                    label="Web"
                     value="Next.js"
                   />
 
                   <HeroStat
-                    label="Language"
-                    value="TypeScript"
+                    label="Cloud"
+                    value="Firebase"
                   />
 
                   <HeroStat
-                    label="Database"
-                    value="Firestore"
+                    label="Embedded"
+                    value="Arduino"
                   />
 
                   <HeroStat
-                    label="Testing"
-                    value="Playwright"
+                    label="Hardware code"
+                    value="C++"
                   />
                 </div>
 
                 <ButtonLink
-                  href="/projects/ap-path-planner"
+                  href="/projects"
                   variant="secondary"
                 >
-                  Read the Case Study
+                  Explore the Projects
                 </ButtonLink>
               </div>
             </div>

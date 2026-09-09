@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio
 
-## Getting Started
+My personal technical portfolio showcasing software-development and embedded-systems projects.
 
-First, run the development server:
+## Live Portfolio
+
+[Visit the portfolio](https://personal-portfolio-eight-ecru-40.vercel.app)
+
+## Featured Projects
+
+### AP Path Planner
+
+A full-stack academic planning platform designed for AP students.
+
+The project includes:
+
+- Next.js and TypeScript
+- React
+- Firebase Authentication
+- Cloud Firestore
+- Firestore Security Rules
+- Playwright testing
+- GitHub Actions
+- Vercel deployment
+- Feedback-driven product iteration
+
+After launching publicly, AP Path Planner reached 110 visitors and 5 registered users during its early launch period. A Reddit post introducing the project received more than 1,000 views, and user feedback led to the addition of automatic course color-coding across assignments, the dashboard, and calendar.
+
+[View AP Path Planner](https://ap-path-planner.vercel.app)
+
+[View the AP Path Planner repository](https://github.com/Leart-Kaceli/AP-Path-Planner)
+
+### Smart Room Environmental Controller
+
+An Arduino UNO R4 WiFi project that combines environmental sensing, automatic lighting, fan control, and an LCD interface.
+
+The project introduced me to:
+
+- Arduino
+- Embedded C++
+- Analog sensors
+- Breadboard prototyping
+- LCD integration
+- Motor control
+- Physical hardware debugging
+
+The controller reads room conditions and automatically responds to temperature and ambient-light changes.
+
+## Portfolio Technology
+
+The portfolio itself is built with:
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Vercel
+- Vercel Web Analytics
+
+## Running Locally
+
+Install dependencies:
+
+```bash
+npm ci
+```
+
+Start development:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a production build:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```text
+src/
+├── app/
+├── components/
+└── data/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+public/
+└── projects/
+    ├── ap-path-planner/
+    └── smart-room-controller/
+```
 
-## Deploy on Vercel
+## Focus
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I use this portfolio to document projects that help me explore software development, computer systems, electronics, and embedded engineering.

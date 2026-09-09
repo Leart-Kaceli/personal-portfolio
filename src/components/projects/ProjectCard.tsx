@@ -37,36 +37,36 @@ export default function ProjectCard({
         </p>
 
         <dl className="mt-6 grid gap-4 border-y border-slate-200 py-6 sm:grid-cols-3">
-  <div>
-    <dt className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
-      Project type
-    </dt>
+          <div>
+            <dt className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
+              Project type
+            </dt>
 
-    <dd className="mt-2 font-bold text-slate-950">
-      Full-stack web app
-    </dd>
-  </div>
+            <dd className="mt-2 font-bold text-slate-950">
+              {project.projectType}
+            </dd>
+          </div>
 
-  <div>
-    <dt className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
-      Primary audience
-    </dt>
+          <div>
+            <dt className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
+              Focus
+            </dt>
 
-    <dd className="mt-2 font-bold text-slate-950">
-      AP students
-    </dd>
-  </div>
+            <dd className="mt-2 font-bold text-slate-950">
+              {project.audience}
+            </dd>
+          </div>
 
-  <div>
-    <dt className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
-      Current stage
-    </dt>
+          <div>
+            <dt className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
+              Current stage
+            </dt>
 
-    <dd className="mt-2 font-bold text-slate-950">
-      Deployed
-    </dd>
-  </div>
-</dl>
+            <dd className="mt-2 font-bold text-slate-950">
+              {project.stage}
+            </dd>
+          </div>
+        </dl>
 
         <div className="mt-6 flex flex-wrap gap-2">
           {project.technologies.map(

@@ -14,7 +14,7 @@ export const metadata:
     "Contact",
 
   description:
-    "Contact me by email, view my work on GitHub, or explore AP Path Planner.",
+  "Contact me by email, view my work on GitHub, or explore my software and embedded systems projects.",
 };
 
 const publicEmail =
@@ -34,7 +34,7 @@ export default function ContactPage() {
           <PageHeader
             eyebrow="Contact"
             title="Let’s connect."
-            description="I am interested in computer science, software development, education technology, and opportunities to continue learning through real projects."
+            description="I am interested in software development, electrical and computer engineering, embedded systems, and opportunities to continue learning through real projects."
           />
         </Container>
       </section>
@@ -93,33 +93,33 @@ export default function ContactPage() {
           <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr]">
             <ContactCard
               eyebrow="What I’m interested in"
-              title="Software, computing, and opportunities to learn."
-              description="I am especially interested in conversations and opportunities related to software engineering, computer science, education technology, and building useful products."
+              title="Software, hardware, and opportunities to learn."
+              description="I am especially interested in conversations and opportunities related to software engineering, electrical and computer engineering, embedded systems, electronics, and building useful technical projects."
             >
               <ul className="grid gap-4 text-sm leading-7 text-slate-600 sm:grid-cols-2">
                 <li className="rounded-xl bg-slate-50 p-4">
-                  Software development
-                </li>
+  Software development
+</li>
 
-                <li className="rounded-xl bg-slate-50 p-4">
-                  Computer science
-                </li>
+<li className="rounded-xl bg-slate-50 p-4">
+  Electrical engineering
+</li>
 
-                <li className="rounded-xl bg-slate-50 p-4">
-                  Education technology
-                </li>
+<li className="rounded-xl bg-slate-50 p-4">
+  Embedded systems
+</li>
 
-                <li className="rounded-xl bg-slate-50 p-4">
-                  Student productivity tools
-                </li>
+<li className="rounded-xl bg-slate-50 p-4">
+  Electronics
+</li>
 
-                <li className="rounded-xl bg-slate-50 p-4">
-                  Technical mentorship
-                </li>
+<li className="rounded-xl bg-slate-50 p-4">
+  Technical mentorship
+</li>
 
-                <li className="rounded-xl bg-slate-50 p-4">
-                  Learning opportunities
-                </li>
+<li className="rounded-xl bg-slate-50 p-4">
+  Learning opportunities
+</li>
               </ul>
             </ContactCard>
 

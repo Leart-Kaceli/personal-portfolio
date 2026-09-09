@@ -8,7 +8,7 @@ const approachItems = [
       "Practical purpose",
 
     description:
-      "I prefer projects that solve a real problem or make a difficult task easier.",
+      "I prefer projects that solve a real problem or help me understand how a system works.",
   },
 
   {
@@ -16,15 +16,15 @@ const approachItems = [
       "Complete process",
 
     description:
-      "I work through planning, interface design, implementation, testing, debugging, deployment, and improvement.",
+      "I work through planning, implementation, testing, debugging, documentation, and improvement.",
   },
 
   {
     title:
-      "Reliability",
+      "Learning across systems",
 
     description:
-      "I value software that behaves consistently, protects user data, and remains understandable to users.",
+      "I enjoy understanding both the software people interact with and the hardware that lets code affect the physical world.",
   },
 ];
 
@@ -36,12 +36,12 @@ export default function AboutPreview() {
           <div>
             <SectionHeading
               eyebrow="About me"
-              title="Learning through complete software projects."
-              description="I am a high school student interested in computer science and software engineering. I enjoy building full-stack applications and learning through real development challenges."
+              title="Learning by building complete systems."
+              description="I am a high school student interested in software, computing, electronics, and engineering. I learn best by turning ideas into working projects."
             />
 
             <p className="mt-6 max-w-2xl text-base leading-8 text-slate-600">
-              Building AP Path Planner taught me that software development involves much more than creating an interface. I also had to think about database structure, user privacy, authentication, accessibility, automated testing, deployment, and long-term reliability.
+              AP Path Planner introduced me to full-stack development, cloud data, security, testing, and production deployment. More recently, building an Arduino Smart Room Environmental Controller has introduced me to sensors, circuits, embedded C++, displays, and physical debugging.
             </p>
 
             <div className="mt-8">

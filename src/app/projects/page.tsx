@@ -17,7 +17,7 @@ export const metadata:
     "Projects",
 
   description:
-    "Explore my software projects, including AP Path Planner, a full-stack academic planning platform built with Next.js, TypeScript, Firebase, and Playwright.",
+    "Explore my full-stack software and embedded systems projects, including AP Path Planner and an Arduino Smart Room Environmental Controller.",
 };
 
 export default function ProjectsPage() {
@@ -35,8 +35,8 @@ export default function ProjectsPage() {
         <Container>
           <PageHeader
             eyebrow="My work"
-            title="Projects built to solve practical problems."
-            description="I use projects to learn the full development process, from planning and interface design to authentication, testing, security, accessibility, and production deployment."
+            title="Projects built to solve problems and explore how systems work."
+            description="My projects range from full-stack web applications to embedded systems, giving me experience with software architecture, testing, deployment, sensors, circuits, and hardware-software integration."
           />
         </Container>
       </section>
@@ -45,15 +45,15 @@ export default function ProjectsPage() {
         <Container>
           <div className="mb-10 max-w-3xl">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
-              Featured project
+              Featured work
             </p>
 
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
-              My most complete software project.
+              Two projects, two different parts of computing.
             </h2>
 
             <p className="mt-4 text-base leading-8 text-slate-600">
-              AP Path Planner combines front-end development, authentication, private cloud data, database security, automated testing, accessibility, continuous integration, and production deployment.
+              AP Path Planner explores full-stack product development, cloud data, security, testing, deployment, and feedback-driven iteration. The Smart Room Environmental Controller extends that learning into embedded C++, sensors, circuits, displays, and physical outputs.
             </p>
           </div>
 
@@ -86,26 +86,26 @@ export default function ProjectsPage() {
           <div className="grid gap-10 lg:grid-cols-[1fr_0.85fr] lg:items-center">
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
-                More work
+                What I value
               </p>
 
               <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
-                Additional projects will be added when they reach the same standard.
+                I use projects to learn beyond the visible result.
               </h2>
 
               <p className="mt-5 max-w-2xl text-base leading-8 text-slate-600">
-                I would rather document a smaller number of complete projects than fill this portfolio with unfinished demos. Future projects will be added after they are tested, documented, and ready to show publicly.
+                Whether I am debugging a browser test or tracing a physical circuit, I try to understand why a system behaves the way it does instead of stopping when the first version works.
               </p>
             </div>
 
             <div className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
               <p className="text-sm font-bold text-slate-950">
-                What I look for in a portfolio project
+                What I look for in a project
               </p>
 
-              <ul className="mt-5 space-y-3 text-sm leading-7 text-slate-600">
+              <ul className="mt-5 list-disc space-y-3 pl-5 text-sm leading-7 text-slate-600">
                 <li>
-                  A clear problem or purpose
+                  A clear problem or learning goal
                 </li>
 
                 <li>
@@ -117,7 +117,7 @@ export default function ProjectsPage() {
                 </li>
 
                 <li>
-                  Testing and reliability
+                  Testing or structured verification
                 </li>
 
                 <li>
@@ -125,7 +125,7 @@ export default function ProjectsPage() {
                 </li>
 
                 <li>
-                  Something I can continue improving
+                  Lessons that influence the next project
                 </li>
               </ul>
             </div>
@@ -142,11 +142,11 @@ export default function ProjectsPage() {
               </p>
 
               <h2 className="mt-3 max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">
-                Want to see how AP Path Planner was built?
+                Explore the software and hardware behind the projects.
               </h2>
 
               <p className="mt-4 max-w-2xl text-base leading-7 text-slate-300">
-                Read the case study for the architecture, testing strategy, technical challenges, and lessons behind the project.
+                Read the case studies for the architecture, implementation, debugging challenges, testing, and lessons behind each project.
               </p>
             </div>
 
@@ -154,14 +154,14 @@ export default function ProjectsPage() {
               <ButtonLink
                 href="/projects/ap-path-planner"
               >
-                Read Case Study
+                AP Path Planner
               </ButtonLink>
 
               <ButtonLink
-                href="/contact"
+                href="/projects/smart-room-controller"
                 variant="secondary"
               >
-                Contact Me
+                Smart Room
               </ButtonLink>
             </div>
           </div>

@@ -15,7 +15,7 @@ export const metadata:
     "About",
 
   description:
-    "Learn about my background, interest in software engineering, AP Path Planner experience, technical growth, and future goals.",
+  "Learn about my background, software and embedded systems projects, AP Path Planner, Arduino work, technical growth, and future goals.",
 };
 
 const approachItems = [
@@ -70,10 +70,10 @@ export default function AboutPage() {
       <section className="py-16 sm:py-24">
         <Container>
           <PageHeader
-            eyebrow="About me"
-            title="Building practical software and learning through complete projects."
-            description="I am a high school student interested in computer science, software engineering, and building technology that solves practical problems."
-          />
+  eyebrow="About me"
+  title="Learning through software, hardware, and complete technical projects."
+  description="I am a high school student interested in computing, software development, electronics, and understanding how technology can solve practical problems."
+/>
         </Container>
       </section>
 
@@ -92,10 +92,14 @@ export default function AboutPage() {
 
             <div className="space-y-12">
               <AboutSection title="Introduction">
-                <p>
-                  I am a high school student interested in computer science, software engineering, and building technology that solves practical problems. I enjoy creating applications that are useful, organized, and reliable rather than adding features only for appearance.
-                </p>
-              </AboutSection>
+  <p>
+    I am a high school student interested in computing, software development, electronics, and building technology that solves practical problems.
+  </p>
+
+  <p>
+    I learn best by creating complete projects and working through the problems that appear when software or hardware has to function outside of a simple demonstration.
+  </p>
+</AboutSection>
 
               <AboutSection title="Why I enjoy programming">
                 <p>
@@ -132,6 +136,21 @@ export default function AboutPage() {
                   I had to manage authentication, protect private user data, write and test Firestore Security Rules, create automated browser tests, improve accessibility, handle deployment environments, and debug differences between local and production behavior.
                 </p>
               </AboutSection>
+              <AboutSection title="Exploring embedded systems">
+  <p>
+    More recently, I began exploring hardware and embedded systems through an Arduino UNO R4 WiFi Smart Room Environmental Controller.
+  </p>
+
+  <p>
+    The project combines temperature and light sensing with automatic lighting, fan control, and an LCD interface. Building it introduced me to circuits, sensors, actuators, embedded C++, and a different style of debugging in which a problem can come from either the code or the physical hardware.
+  </p>
+
+  <div className="pt-2">
+    <ButtonLink href="/projects/smart-room-controller">
+      Read the Smart Room Case Study
+    </ButtonLink>
+  </div>
+</AboutSection>
             </div>
           </div>
         </Container>
@@ -145,11 +164,11 @@ export default function AboutPage() {
             </p>
 
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
-              How I approach software projects.
+              How I approach technical projects.
             </h2>
 
             <p className="mt-4 text-lg leading-8 text-slate-600">
-              The habits I developed while building AP Path Planner now guide how I approach new technical work.
+              The habits I developed through AP Path Planner and my Arduino project now guide how I approach new technical work across software and hardware.
             </p>
           </div>
 
@@ -196,33 +215,34 @@ export default function AboutPage() {
         <Container>
           <div className="grid gap-12 lg:grid-cols-2">
             <AboutSection title="Academic interests">
-              <p>
-                I am interested in studying computer science, computer engineering, software engineering, or a closely related field.
-              </p>
+  <p>
+    I am especially interested in electrical engineering, computer engineering, computer science, and fields where software and hardware interact.
+  </p>
 
-              <p>
-                I want to continue learning how software systems are designed, how computers process information, and how technology can be used to solve meaningful problems.
-              </p>
-            </AboutSection>
+  <p>
+    I want to understand systems at a deeper level, from software architecture and data to electronics, embedded computing, sensors, and the physical hardware controlled by code.
+  </p>
+</AboutSection>
 
             <AboutSection title="Future direction">
-              <p>
-                I plan to continue improving AP Path Planner based on feedback from real students.
-              </p>
-
-              <p>
-                I am also interested in building projects involving artificial intelligence, education technology, productivity, financial tools, and applications that connect software with real-world needs.
-              </p>
-              <div className="mt-8 rounded-2xl border border-blue-100 bg-blue-50 p-6">
-  <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-    Currently learning
+  <p>
+    I plan to continue improving AP Path Planner based on feedback from real students while building additional projects that expand my experience beyond web development.
   </p>
 
-  <p className="mt-3 text-sm leading-7 text-slate-700">
-    I am continuing to strengthen my full-stack development skills while exploring computer science, software architecture, and responsible uses of artificial intelligence.
+  <p>
+    I am particularly interested in embedded systems, electronics, automation, education technology, and projects that connect software with real-world hardware.
   </p>
-</div>
-            </AboutSection>
+
+  <div className="mt-8 rounded-2xl border border-blue-100 bg-blue-50 p-6">
+    <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
+      Currently learning
+    </p>
+
+    <p className="mt-3 text-sm leading-7 text-slate-700">
+      I am continuing to strengthen my software-development skills while learning more about circuits, microcontrollers, embedded systems, and electrical engineering.
+    </p>
+  </div>
+</AboutSection>
           </div>
         </Container>
       </section>
@@ -236,11 +256,11 @@ export default function AboutPage() {
               </p>
 
               <h2 className="mt-3 max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">
-                See how these ideas became working software.
+                See how these ideas became working systems.
               </h2>
 
               <p className="mt-4 max-w-2xl text-base leading-7 text-slate-300">
-                Explore AP Path Planner, read the technical case study, or contact me about my projects.
+                Explore my software and embedded systems projects, read the case studies, or contact me about my work.
               </p>
             </div>
 

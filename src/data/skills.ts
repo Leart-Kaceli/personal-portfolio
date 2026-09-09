@@ -11,11 +11,12 @@ export const skillCategories:
         "Languages",
 
       description:
-        "Languages used to build interfaces, application logic, and school programming projects.",
+        "Languages used across web applications, embedded programming, and school programming projects.",
 
       skills: [
         "TypeScript",
         "JavaScript",
+        "C++",
         "Java",
         "HTML",
         "CSS",
@@ -24,10 +25,10 @@ export const skillCategories:
 
     {
       title:
-        "Frontend Development",
+        "Web Development",
 
       description:
-        "Tools and techniques used to create responsive and accessible interfaces.",
+        "Tools and techniques used to build responsive, accessible, and full-stack web applications.",
 
       skills: [
         "React",
@@ -43,7 +44,7 @@ export const skillCategories:
         "Authentication and Data",
 
       description:
-        "Services used to manage user identity, cloud records, synchronization, and data security.",
+        "Services used to manage user identity, cloud records, synchronization, and application data security.",
 
       skills: [
         "Firebase Authentication",
@@ -58,7 +59,7 @@ export const skillCategories:
         "Testing and Deployment",
 
       description:
-        "Tools used to verify application behavior and deploy reliable production builds.",
+        "Tools used to verify application behavior, automate quality checks, and deploy production software.",
 
       skills: [
         "Vitest",
@@ -66,6 +67,23 @@ export const skillCategories:
         "GitHub Actions",
         "Vercel",
         "Production Smoke Testing",
+      ],
+    },
+
+    {
+      title:
+        "Hardware and Embedded Systems",
+
+      description:
+        "Skills developed while building physical computing projects with sensors, circuits, displays, and actuators.",
+
+      skills: [
+        "Arduino UNO R4 WiFi",
+        "Arduino",
+        "Embedded C++",
+        "Analog Sensors",
+        "16×2 LCD",
+        "Breadboard Prototyping",
       ],
     },
   ];
